@@ -1,0 +1,117 @@
+a{
+    text-decoration: none;
+}
+.logo{
+    height: 130px;
+    width: 100%;
+    background-color:rgb(246, 246, 246);
+    background-image: url(../homepage/11.jpg.gif) ;
+    background-size: 40%;
+    margin-top: -28px;
+}
+.welcome h1{
+    /* margin-top: 80px; */
+    margin-left: 550px;
+    padding-top: 30px;;
+}
+body,ul,li,a
+{
+    padding: 0;
+    margin: 5px;
+}
+body
+{
+    margin-top: 0px;
+    background-color:rgb(246, 246, 246);
+    color: #fff; 
+}
+.menu
+{
+    font-size: 0;
+    padding: 0;
+    height: 50px;
+    padding-left: 5%;
+    background-color: #00a2ca;
+    position: relative;
+}
+.menubar
+{
+    margin: 0 auto;
+    position: absolute;
+    list-style-type: none;
+    overflow-y: auto;
+}
+
+.menubar li
+{
+    padding:0px 5px;
+    display:inline-block;
+    cursor: pointer;
+    line-height: 30px;		
+}
+.menubar li:hover
+{
+background-color:#0095bb;
+
+}
+
+
+.menubar a
+{
+    display: block;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.container {
+    height: 60px;
+    width: 100px;
+    position: relative;
+    margin-top: -32px;
+    margin-left: 960px;
+    padding-top: 10px;
+}
+.parent {
+    position: relative;
+}
+.parent .search {
+    width: 200px;
+    height: 30px;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 23px;
+    position: absolute;
+}
+.btn {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    background: url("../homepage/search.png");
+    background-size: 35px 32px;
+    background-repeat: no-repeat;
+    top: 2px;
+    left: 185px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.login{
+  position: relative;
+    margin-top: -30px;
+    margin-left: 1320px;
+}
+.login a{
+    
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.button{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 0%;
+    background-color: rgb(46, 46, 46);
+}
